@@ -1,0 +1,414 @@
+#topbar{
+    background: #292929;
+    padding: 5px 15px;
+    color: #ffffff;
+}
+
+.center-row {
+    display: flex;
+    justify-content: center;
+  }
+
+ /* First Banner */
+.banner h3{
+    font-size: 62px;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 22px;
+    margin-bottom: 60px;
+}
+.banner{
+    padding: 100px;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(Assets/Images/bg-testimonial-min_1920x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the background image horizontally and vertically */
+}
+.custom-dropdown select {
+    background: linear-gradient( 135deg , #222222 0%, #222222 50%, #dd3d27 51%, #dd3d27 71%, #dd3d27 100%);
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.custom-dropdown2 select {
+    background: linear-gradient( 135deg , #222222 0%, #222222 50%, #dd3d27 51%, #dd3d27 71%, #dd3d27 100%);
+    color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.custom-dropdown3 select {
+    background: linear-gradient( 135deg , #222222 0%, #222222 50%, #dd3d27 51%, #dd3d27 71%, #dd3d27 100%);
+    color: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.custom-dropdown4 select {
+    background: linear-gradient( 135deg , #222222 0%, #222222 50%, #dd3d27 51%, #dd3d27 71%, #dd3d27 100%);
+    color: #fff;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.custom-button {
+    background: linear-gradient( 135deg , #222222 0%, #222222 50%, #dd3d27 51%, #dd3d27 71%, #dd3d27 100%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Feature List */
+.text-icon {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.text-icon img {
+    width: 50px; /* Adjust the image width as needed */
+    margin-right: 10px; /* Space between image and text */
+}
+.text {
+    text-align: left;
+}
+.text h4 {
+    margin: 0; /* Remove margin for the title */
+}
+.col-md-2 {
+    margin-right: 40px; /* Adjust the gap between columns as needed */
+}
+
+
+/* BANNER 2 IMAGES & BANNER 3 IMAGES*/
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.column {
+    flex-basis: 50%; /* Adjust this width as needed */
+    padding: 50px; /* Add padding as desired */
+    box-sizing: border-box; /* Include padding in the column width */
+}
+.column + .column {
+    margin-left: 10px; /* Add a gap between columns */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* TOP CATEGORIES */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 columns */
+    grid-template-rows: repeat(2, auto); /* 2 rows */
+    gap: 20px; /* Gap between items */
+    padding: 20px; /* Add padding to the entire gallery section */
+    background-color: #f8f8f8; /* Background color for the gallery section */
+}
+.gallery-item {
+    background-color: #ffffff; /* Background color for gallery items */
+    padding: 20px; /* Padding around each item */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a cleaner look */
+}
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+.gallery-item h3 {
+    margin-top: 10px; /* Margin between image and title */
+    font-size: 16px; /* Adjust title font size as needed */
+}
+
+
+/* DEALS OF THE DAY*/
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-card {
+    width: 20%; /* Adjusted to create a 5-column layout */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.product-title {
+    font-size: 20px;
+    margin: 0;
+}
+.product-description {
+    margin: 10px 0;
+}
+.product-price {
+    font-weight: bold;
+    margin: 0;
+}
+
+
+/*FEATURE BRANDS*/
+.our-clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px; /* Add padding around the entire grid */
+  }
+  .our-clients ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Add gap between grid items */
+  }
+  .our-clients ul li {
+    width: calc(16.666% - 20px); /* 6 columns with 20px gap */
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px -7px #555;
+    transition: .5s;
+  }
+  .our-clients ul li img {
+    width: 80px; /* Set the desired width */
+    height: 80px; /* Set the desired height */
+    transition: .5s;
+    transform: translateY(0);
+  }
+  .our-clients ul li:hover img {
+    transform: translateY(-100%);
+    transition: .5s;
+  }
+
+
+/*NEWSLETTER*/
+.newsletter-banner {
+    background-image: url('Assets/Images/newsletter-bg2_1400x.png'); /* Replace with your banner image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px; /* Add padding to the top and bottom */
+}
+.newsletter-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.newsletter-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.newsletter-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-form input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.newsletter-form button {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.newsletter-form button:hover {
+    background-color: orangered;
+}
+
+
+/* CLIENT REVIEW */
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.testimonial {
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.testimonial img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: block;
+}
+.testimonial p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.testimonial h3 {
+    font-size: 18px;
+    color: #333;
+}
+.testimonial svg {
+    width: 50px; 
+    height: 50px; 
+    margin-bottom: 10px;
+}
+.rating {
+    font-size: 25px;
+    margin: 10px 0;
+    color: yellow;
+}
+
+/* BLOG POST */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+.blog-posts {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.post-link {
+    text-decoration: none;
+    flex: 1;
+}
+.post {
+    flex: 1;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: left; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: background 0.3s ease;
+    color: #fff;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+.post::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+.post-link:hover .post::before {
+    opacity: 1; 
+}
+.post time {
+    font-size: 0.9em;
+    color: yellow;
+    display: block;
+    margin-bottom: 5px;
+}
+.post h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.post1 {
+    background-image: url('Assets/Images/blog-1_b9119859-85ce-4628-ac3f-108a8696bacb_540x.jpg');
+}
+.post2 {
+    background-image: url('Assets/Images/blog-2_540x.jpg');
+}
+.post3 {
+    background-image: url('Assets/Images/blog-5_540x.jpg');
+}
+
+/* FEATURE LIST */
+.feature-container {
+    padding: 20px;
+}
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature {
+    flex-basis: calc(20% - 20px);
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.feature i {
+    font-size: 36px;
+    color: #007BFF;
+    margin-right: 10px;
+}
+.feature p {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+
+@media (max-width: 767px) {
+    .footer-column {
+        flex-basis: 50%;
+    }
+}
+
+
+
+
+
+
+
+.margin1 {
+  
+
+}
+
+.syv {
+    margin-bottom: 75px;
+}

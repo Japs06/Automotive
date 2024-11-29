@@ -1,0 +1,127 @@
+.bottombar {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px; /* Default gap */
+    align-items: center;
+    margin-left: 205.455px;
+    margin-right: 205.470px;
+    padding: 16px 10px 16px 10px;
+}
+
+.logo {
+    grid-column: 1;
+    max-width: 100%;
+    width: 155px;
+}
+
+.icon-with-text{
+    grid-column: 2;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.text p {
+    margin: 0;
+    font-size: var(--g-font-size);
+    font-family: var(--g-font-1);
+    color: black;
+}
+
+.search-input {
+    grid-column: 3;
+    display: flex;
+    
+}
+
+input.search {
+    width: 415px;
+    border-radius: 1rem;
+    border: 1px solid #555;
+    display: block;
+    padding: 9px 4px 9px 40px;
+    background: transparent url("images/search.png") no-repeat 370px;
+}
+
+
+.icons {
+    grid-column: 4;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px; 
+}
+
+
+
+
+
+
+
+/* FOOTER SECTION */
+.site-footer {
+    background-image: url(Assets/Images/footer-bg_1920x.jpg);
+    background-size: 110%; /* Adjust the zoom level as needed (e.g., 110% for a slight zoom) */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+    text-align: center;
+}
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 100px; /* Adjust the spacing between columns as needed */
+    text-align: center;
+}
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+.footer-column {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.footer-column h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #737373;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #3366cc;
+}
+
+.copyright {
+    border-top: 1px solid #737373;
+    padding-top: 20px 0; /* Adjust the padding as needed */
+    text-align: left;
+}
